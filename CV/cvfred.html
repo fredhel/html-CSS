@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="cvFred" content="CV en html/css de Helou Frederic">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./script/style.css">
     <title>CV Frederic Helou</title>
 </head>
 <body>
@@ -146,30 +146,65 @@
         <article>
             <header>
                 <h1>autodidacte</h1>
+            </header>
                 <p>
                     formation sur html, css(openclassroom, udemy)
                     formation python
                     utilisation pragramme utilisant des blocs (scratch)
                 </p>
-            </header>
         </article>
     </section>
     </div>
     <footer>
-        <header class="hidden">
-            <h1>pied de page</h1>
-        </header>
         <section>
             <header>
                 <h1>formulaire</h1>
             </header>
+            <form action="" method="post">
+                <label for="nom">Nom:
+                    <input type=" text" id="nom" name="nom" placeholder="ton nom !!!">
+                </label>
+                <br><br>
+                <label for="nom">Prénom:
+                    <input type=" text" id="prénom" name="prénom" placeholder="ton prénom !!!">
+                </label>
+                <br><br>
+                <label for="">votre email:
+                    <input type="email" name="mail" id="mail">
+                </label>
+                <br><br>
+                <label for="couleur">couleur favorite:
+                    <label for="couleur">bleu
+                        <input type="radio" name="couleur" id="" value="bleu">
+                    </label>
+                    <label for="couleur">rouge
+                        <input type="radio" name="couleur" id="" value="rouge">
+                    </label>
+                    <label for="couleur">jaune
+                        <input type="radio" name="couleur" id="" value="jaune">
+                    </label>
+                </label>
+                <br><br>
+                <label for="nom">Sujet
+                    <input type=" text" id="nom" name="nom" placeholder="texte">
+                </label>
+                <br><br>
+                <label for="age">Tranche d'age</label>
+                <select name="age" id="">
+                    <option value="-18">moins de 18</option>
+                    <option value="18/25">de 18 a 25</option>
+                    <option value="25/50">de 25 a 50</option>
+                    <option value="+50">plus de 50</option>
+                </select>
+                <br><br>
+                <label for="">taper votre texte:</label>
+                <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <br><br>
+                <input type="reset" value="reset">
+                <input type="submit" value="envoyer">
+            </form>
         </section>
     </footer>
-
-
-
-        
-    
-    
 </body>
 </html>

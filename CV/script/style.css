@@ -56,3 +56,7 @@ footer
     border:1px solid black;
     background-color: coral;
 }
+article
+{
+    border: 1px solid royalblue;
+}
