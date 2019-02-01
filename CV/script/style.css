@@ -5,11 +5,15 @@ article
 
 footer
 {
+    float:left;
     width: 95%;
     height: auto;
     margin-left: 2.5%;
     border:1px solid black;
     background-color: coral;
+}
+aside{
+
 }
 
 
@@ -26,7 +30,10 @@ footer
     background-color: grey;
     text-align: center;
 }
-
+#profil{
+    float:left;
+    width: 60%;
+}
 .hidden
 {
     visibility: hidden;
@@ -35,6 +42,9 @@ footer
 #presentation
 {
     background-color: bisque;
+    height: 500px;
+  
+ 
 }
 
 h1::first-letter
@@ -42,9 +52,18 @@ h1::first-letter
     text-transform: capitalize;
 }
 
+#sectiong{
+    float: left;
+}
 #sectiong , #sectiondh, #sectiondb
 {
     width: 45%;
+}
+#sectiondh, #sectiondb
+{
+    
+    margin-right: 2.5%;
+    float:right;
 }
 
 div
