@@ -1,53 +1,8 @@
-#header 
+article
 {
-    margin-left: 2.5%;
-    width: 95%;
-    height: auto;
-    background-color: grey;
-    border: 1px solid black;
-    text-align: center;
+    border: 1px solid royalblue;
 }
-.hidden
-{
-    visibility: hidden;
-}
-#presentation
-{
-    margin-left: 2.5%;
-    width: 95%;
-    height: auto;
-    background-color: bisque;
-    border: 1px solid black;
-}
-h1::first-letter
-{
-    text-transform: capitalize;
-}
-#sectiong
-{
-    margin-left: 2.5%;
-    width: 45%;
-    height: auto;
-    border: 1px solid black;
-}
-#sectiondh
-{
-    margin-left: 2.5%;
-    width: 45%;
-    height: auto;
-    border: 1px solid black;
-}
-#sectiondb
-{
-    margin-left: 2.5%;
-    width: 45%;
-    height: auto;
-    border: 1px solid black; 
-}
-div
-{
 
-}
 footer
 {
     width: 95%;
@@ -56,7 +11,47 @@ footer
     border:1px solid black;
     background-color: coral;
 }
-article
+
+
+#header , #presentation, #sectiong, #sectiondh, #sectiondb
 {
-    border: 1px solid royalblue;
+    margin-left: 2.5%;
+    width: 95%;
+    height: auto;
+    border: 1px solid black;
 }
+
+#header
+{
+    background-color: grey;
+    text-align: center;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+#presentation
+{
+    background-color: bisque;
+}
+
+h1::first-letter
+{
+    text-transform: capitalize;
+}
+
+#sectiong , #sectiondh, #sectiondb
+{
+    width: 45%;
+}
+
+div
+{
+
+}
+
+
+
+
