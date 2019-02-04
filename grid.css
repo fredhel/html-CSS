@@ -1,0 +1,177 @@
+.conteneur
+{
+    height: 100vh;
+    display:grid;
+    grid-template-areas:
+    "w1  w2  w2  w2  w2 w2  w2  w2  w3  w3  w3  w3  w3 w3  w3  w3  w4  y1"
+    "w1  b1  b1  b1  b1 b1  b1  b1  w5  w5  w5  b2  b2 b2  b2  b2  w4  y1"
+    "n1  b1  b1  b1  b1 b1  b1  b1  w5  w5  w5  b2  b2 b2  b2  b2  w4  y1"
+    "n1  w6  w6  n2  w7 w7  w7  w8  y2  y2  y2  r1  r1 r1  r1  r2  w4  y1"
+    "n1  w6  w6  n2  w7 w7  w7  w8  y2  y2  y2  r1  r1 r1  r1  r2  w4  y1"
+    "n1  w6  w6  n2  w7 w7  w7  w8  y2  y2  y2  r1  r1 r1  r1  r2  w4  y1"
+    "n1  w6  w6  n2  y3 r3  r3  r3  b3  b3  b3  w9  w9 w9  w9  w16 n3  n3"
+    "n1  w6  w6  n2  y3 r3  r3  r3  b3  b3  b3  w9  w9 w9 w9  w16 n3  n3"
+    "w10 r4  r4  n2  y4 w11 w11 w11 w11 w12 w12 w12 b4 b4  y5  w13 w13 w13"
+    "w10 r4  r4  n2  y4 w11 w11 w11 w11 w12 w12 w12 b4 b4  y5  w13 w13 w13"
+    "w10 r4  r4  n2  y4 w11 w11 w11 w11 w12 w12 w12 b4 b4  y5  w13 w13 w13"
+    "w10 r4  r4  n2  y4 r5  r5  r5  n4  n4  n4  n4  n4 w14 w14 w14 w14 w14"
+    "w15 w15 w15 w15 y4 r5  r5  r5  n4  n4  n4  n4  n4 w14 w14 w14 w14 w14";
+    grid-gap:8px;
+    background: #000;
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11,.item12,.item13,.item14,.item15,.item16
+{
+    background: #fff;
+}
+ .item1
+ {
+     grid-area: w1;
+ }
+ .item2
+ {
+     grid-area: w2;
+ }
+ .item3
+ {
+     grid-area: w3;
+ }
+ .item4
+ {
+     grid-area: w4;
+ }
+ .item5
+ {
+     grid-area: w5;
+ }
+ .item6
+ {
+     grid-area: w6;
+ }
+ .item7
+ {
+     grid-area: w7;
+ }
+ .item8
+ {
+     grid-area: w8;
+ }
+ .item9
+ {
+     grid-area: w9;
+ }
+ .item10
+ {
+     grid-area: w10;
+ }
+ .item11
+ {
+     grid-area: w11;
+ }
+ .item12
+ {
+     grid-area: w12;
+ }
+ .item13
+ {
+     grid-area: w13;
+ }
+ .item14
+ {
+     grid-area: w14;
+ }
+ .item15
+ {
+     grid-area: w15;
+ }
+ .item16
+ {
+     grid-area: w16;
+ }
+ .item17,.item18,.item19,.item20,.item21
+ {
+     background: yellow;
+ }
+ .item17
+ {
+     grid-area: y1;
+ }
+ .item18
+ {
+     grid-area: y2;
+ }
+ .item19
+ {
+     grid-area: y3;
+ }
+ .item20
+ {
+     grid-area: y4;
+ }
+ .item21
+ {
+     grid-area: y5;
+ }
+ .item22,.item23,.item24,.item25,.item26
+ {
+     background: red;
+ }
+ .item22
+ {
+     grid-area:r1;
+ }
+ .item23
+ {
+     grid-area:r2;
+ }
+ .item24
+ {
+     grid-area:r3;
+ }
+ .item25
+ {
+     grid-area:r4;
+ }
+ .item26
+ {
+     grid-area:r5;
+ }
+ .item27,.item28,.item29,.item30
+ {
+     background:blue;
+ }
+ .item27
+ {
+     grid-area:b1;
+ }
+ .item28
+ {
+     grid-area:b2;
+ }
+ .item29
+ {
+     grid-area:b3;
+ }
+ .item30
+ {
+     grid-area:b4;
+ }
+ .item31,.item32,.item33,.item34
+ {
+     background:black;
+ }
+ .item31
+ {
+     grid-area:n1;
+ }
+ .item32
+ {
+     grid-area:n2;
+ }
+ .item33
+ {
+     grid-area:n3;
+ }
+ .item34
+ {
+     grid-area:n4;
+ }
