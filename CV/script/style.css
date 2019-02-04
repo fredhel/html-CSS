@@ -1,6 +1,10 @@
+body{
+    background-color: #FFE8E2;
+}
+
 article
 {
-    border: 1px solid royalblue;
+   
 }
 
 footer
@@ -8,15 +12,26 @@ footer
     float:left;
     width: 95%;
     height: auto;
+    margin-top: 20px;
     margin-left: 2.5%;
     border:1px solid black;
-    background-color: coral;
+    background-color:#7F7A79;
 }
-aside{
-
+#photo img
+{
+    border: 2px solid rgb(102, 76, 76);
+    margin: auto;
 }
 
+h1::first-letter
+{
+    text-transform: capitalize;
+}
 
+.periode
+{
+    color: #FF7F35;
+}
 #header , #presentation, #sectiong, #sectiondh, #sectiondb
 {
     margin-left: 2.5%;
@@ -27,49 +42,81 @@ aside{
 
 #header
 {
-    background-color: grey;
+    background-color: #403D3C;
     text-align: center;
 }
-#profil{
-    float:left;
-    width: 60%;
-}
+
 .hidden
 {
     visibility: hidden;
 }
 
+/* gestion de la section profil */
+
 #presentation
 {
-    background-color: bisque;
+    text-align: center;
+    background-color: #7F7471;
     height: 500px;
-  
- 
 }
 
-h1::first-letter
+#profil
 {
-    text-transform: capitalize;
+    text-align: left;
+    float:left;
+    width: 30%;
+    margin-left: 10%;
 }
 
-#sectiong{
-    float: left;
+#photo
+{
+    width: 350px;
+    float: right;
+    margin-right: 15%;
 }
+#pitch
+{
+    width: 90%;
+    background-color: rgb(165, 161, 161);
+    text-align: justify;
+}
+
+/* gestion des section contenu */
+
+#sectiong
+{
+    float: left;
+    height:800px;
+    padding:2px;
+}
+
 #sectiong , #sectiondh, #sectiondb
 {
-    width: 45%;
+    width: 46%;
+    background-color: #BFAEA9;
+    margin-top: 30px;
 }
+
 #sectiondh, #sectiondb
 {
-    
     margin-right: 2.5%;
     float:right;
+    
 }
 
-div
+#sectiondb article ,#sectiondh article,#sectiong article {
+    background-color: #E5D1CB;
+    margin: 10px;
+    text-align: justify;
+    padding:2px;
+}
+
+#sectiondb
 {
-
+    
 }
+
+
 
 
 
