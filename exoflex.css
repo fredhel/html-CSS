@@ -30,8 +30,6 @@ li
     border:2px outset rgb(212, 95, 95);
     list-style: none;
     flex:1;
-    /*text-align: center;*/
-    margin:0;
     padding:5px;
 }
 
