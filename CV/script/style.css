@@ -17,21 +17,15 @@ footer
     border:1px solid black;
     background-color:#7F7A79;
 }
-#photo img
-{
-    border: 2px solid rgb(102, 76, 76);
-    margin: auto;
-}
+
 
 h1::first-letter
 {
     text-transform: capitalize;
 }
 
-.periode
-{
-    color: #FF7F35;
-}
+
+
 #header , #presentation, #sectiong, #sectiondh, #sectiondb
 {
     margin-left: 2.5%;
@@ -68,6 +62,12 @@ h1::first-letter
     margin-left: 10%;
 }
 
+#photo img
+{
+    border: 2px solid rgb(102, 76, 76);
+    margin: auto;
+}
+
 #photo
 {
     width: 350px;
@@ -82,6 +82,11 @@ h1::first-letter
 }
 
 /* gestion des section contenu */
+
+.periode
+{
+    color: #FF7F35;
+}
 
 #sectiong
 {
@@ -111,10 +116,6 @@ h1::first-letter
     padding:2px;
 }
 
-#sectiondb
-{
-    
-}
 
 
 
