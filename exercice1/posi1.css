@@ -2,14 +2,14 @@ div{
     padding:20px;
 }
 
-#bleu{
-    background-color: blue;
+#color1{
+    background-color:  #1498BF;;
    
 }
-#rouge{
-    background-color: red;
+#color2{
+    background-color: #0D667F;
     
 }
-#vert{
-    background-color: green;
+#color3{
+    background-color:  #073340;
 }

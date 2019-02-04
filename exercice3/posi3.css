@@ -1,26 +1,24 @@
+#color1 , #color2{
+    padding: 50px;  
+}
 
-#bleu{
+#color1{
     top: 100px;
     left: 100px;
-    background-color: blue;
-    width: 300px;
-     height: 150px;
+    background-color: #1498BF;
+    width: 10%;
 }
-#rouge{
-    position: absolute;
-    top:25px;
-    left:50px;
-    background-color:rgba(255,0,0,0.7);
-    width: 200px;
-    height: 100px;
 
-    
+#color2{
+    background-color:#0D667F;
+    opacity:0.5;
 }
-#vert{
+
+#color3{
     position: absolute;
-    top:180px;
+    top:250px;
     left:125px;
-    background-color: green;
+    background-color:  #073340;
     width: 50px;
     height: 50px;
 }
