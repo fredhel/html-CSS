@@ -1,0 +1,222 @@
+body
+{
+    width: 800px;
+}
+
+.conteneur
+{
+    height: 50vh;
+    display:grid;
+    grid-template-areas:
+    "n1 n2  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  n3 n4"
+    "n1 n2 n5 n6  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  n7 n8 n3 n4"
+    "n1 n2 n5 y1 n9  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  na y2 n8 n3 n4"
+    "n1 n2 n5 y1 y3 nb nb  .  .  .  .  .  .  .  .  .  .  .  .  .  .  nc nc y4 y2 n8 n3 n4"
+    ".  n2 n5 y1 y3 y5 y5 nd  .  .  .  .  .  .  .  .  .  .  .  .  ne y6 y6 y4 y2 n8 n3 . "
+    ".  n2 n5 y1 y3 y5 y5 y7 nf nf  .  .  ng ng ng ng .  .  nh nh y8 y6 y6 y4 y2 n8 n3 . "
+    ".  .  n5 y1 y3 y5 y5 y7 y9 y9 ni ni  ya ya ya ya nj nj yb yb y8 y6 y6 y4 y2 n8 .  . "
+    ".  .  n5 y1 y3 y5 y5 y7 y9 y9 yc yc  ya ya ya ya yd yd yb yb y8 y6 y6 y4 y2 n8 .  . "
+    ".  .  .  nk y3 y5 y5 y7 y9 y9 yc yc  ya ya ya ya yd yd yb yb y8 y6 y6 y4 nl .  .  . "
+    ".  .  .  .  nm ye nn y7 y9 y9 yc yc  ya ya ya ya yd yd yb yb y8 no yf np .  .  .  . "
+    ".  .  .  .  .  nq yg y7 y9 y9 yc yc  ya ya ya ya yd yd yb yb y8 yh nr .  .  .  .  . "
+    ".  .  .  .  .  nq yg y7 y9 y9 yc yc  ya ya ya ya yd yd yb yb y8 yh nr .  .  .  .  . "
+    ".  .  .  .  ns yi yg y7 nt nt yc yc  ya ya ya ya yd yd nu nu y8 yh yj nv .  .  .  . "
+    ".  .  .  .  ns yi yg nw .  nx nx yc  ya ya ya ya yd ny .  nz nz yh yj nv .  .  .  . "
+    ".  .  .  .  ns yi yg nw m1 m1 m1 yc  ya ya ya ya yd m2 m2 m2 m2 yh yj nv .  .  .  . "
+    ".  .  .  .  ns yi yg yk m3 m3 yl yc  ym m4 m4 yn yd yo m5 m5 yp yh yj nv .  .  .  . "
+    ".  .  .  m6 yq yi r1 r1 yr ys yl yc  ym yt yt yn yd yo yu yv r2 r2 yj yw m8 .  .  . "
+    ".  .  .  m6 yq r3 r1 r1 r4 ys yl m7  ym m9 m9 yn ma yo yu r5 r2 r2 r6 yw m8 .  .  . "
+    ".  .  .  m6 yq r3 r1 r1 r4 ys yl yx  mb mb mb mb yy yo yu r5 r2 r2 r6 yw m8 .  .  . "
+    ".  .  .  .  mc yz r1 r1 j1 ys yl yx  md r7 r7 me yy yo yu j2 r2 r2 j3 mf .  .  .  . "
+    ".  .  .  .  .  mg j4 j4 j1 ys yl yx  md r7 r7 me yy yo yu j2 j5 j5 mh .  .  .  .  . "
+    ".  .  .  .  .  .  mi mi j1 ys yl yx  j6 mj mj j7 yy yo yu j2 mk mk .  .  .  .  .  . "
+    ".  .  .  .  .  .  .  .  ml ml ml j8  j8 j8 j8 j8 j8 mm mm mm .  .  .  .  .  .  .  . "
+    ".  .  .  .  .  .  .  .  .  .  .  mn  mn mn mn mn mn .  .  .  .  .  .  .  .  .  .  . ";
+    grid-gap:8px;
+    background: #fff;
+    border:8px solid #000 ;
+}
+#noir1{
+    grid-area: n1;
+}
+
+#noir2{
+    grid-area: n2;
+}
+#noir3{
+    grid-area: n3;
+}
+#noir4{
+    grid-area: n4;
+}
+#noir5{
+    grid-area: n5;
+}
+#noir6{
+    grid-area: n6;
+}
+#noir7{
+    grid-area: n7;
+}
+#noir8{
+    grid-area: n8;
+}
+#noir9{
+    grid-area: n9;
+}
+#noir10{
+    grid-area: na;
+}
+#noir11{
+    grid-area: nb;
+}
+#noir12{
+    grid-area: nc;
+}
+#noir13{
+    grid-area: nd;
+}
+#noir14{
+    grid-area: ne;
+}
+#noir15{
+    grid-area: nf;
+}
+#noir16{
+    grid-area: ng;
+}
+#noir17{
+    grid-area: nh;
+}
+#noir18{
+    grid-area: ni;
+}
+#noir19{
+    grid-area: nj;
+}
+#noir20{
+    grid-area: nk;
+}
+#noir21{
+    grid-area: nl;
+}
+#noir22{
+    grid-area: nm;
+}
+#noir23{
+    grid-area: nn;
+}
+#noir24{
+    grid-area: no;
+}
+#noir25{
+    grid-area: np;
+}
+#noir26{
+    grid-area: nq;
+}
+#noir27{
+    grid-area: nr;
+}
+#noir28{
+    grid-area: ns;
+}
+#noir29{
+    grid-area: nt;
+}
+#noir30{
+    grid-area: nu;
+}
+#noir31{
+    grid-area: nv;
+}
+#noir32{
+    grid-area: nw;
+}
+#noir33{
+    grid-area: nx;
+}
+#noir34{
+    grid-area: ny;
+}
+#noir35{
+    grid-area: nz;
+}
+#noir36{
+    grid-area: m1;
+}
+#noir37{
+    grid-area: m2;
+}
+#noir38{
+    grid-area: m3;
+}
+#noir39{
+    grid-area: m4;
+}
+#noir40{
+    grid-area: m5;
+}
+#noir41{
+    grid-area: m6;
+}
+#noir42{
+    grid-area: m7;
+}
+#noir43{
+    grid-area: m8;
+}
+#noir44{
+    grid-area: m9;
+}
+#noir45{
+    grid-area: ma;
+}
+#noir46{
+    grid-area: mb;
+}
+#noir47{
+    grid-area: mc;
+}
+#noir48{
+    grid-area: md;
+}
+#noir49{
+    grid-area: me;
+}
+#noir50{
+    grid-area: mf;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}
+#noir1{
+    grid-area: n1;
+}

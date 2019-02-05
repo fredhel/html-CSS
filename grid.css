@@ -10,7 +10,8 @@ body
     grid-template-areas:
     "w1  w2  w2  w2  w2 w2  w2  w2  w3  w3  w3  w3  w3 w3  w3  w3  w4  y1"
     "w1  b1  b1  b1  b1 b1  b1  b1  w5  w5  w5  b2  b2 b2  b2  b2  w4  y1"
-    "n1  b1  b1  b1  b1 b1  b1  b1  w5  w5  w5  b2  b2 b2  b2  b2  w4  y1"
+    "w1  b1  b1  b1  b1 b1  b1  b1  w5  w5  w5  b2  b2 b2  b2  b2  w4  y1"
+    "n1  w6  w6  n2  w7 w7  w7  w8  y2  y2  y2  r1  r1 r1  r1  r2  w4  y1"
     "n1  w6  w6  n2  w7 w7  w7  w8  y2  y2  y2  r1  r1 r1  r1  r2  w4  y1"
     "n1  w6  w6  n2  w7 w7  w7  w8  y2  y2  y2  r1  r1 r1  r1  r2  w4  y1"
     "n1  w6  w6  n2  w7 w7  w7  w8  y2  y2  y2  r1  r1 r1  r1  r2  w4  y1"
