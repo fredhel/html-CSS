@@ -1,6 +1,11 @@
+body
+{
+    width: 800px;
+}
+
 .conteneur
 {
-    height: 100vh;
+    height: 50vh;
     display:grid;
     grid-template-areas:
     "w1  w2  w2  w2  w2 w2  w2  w2  w3  w3  w3  w3  w3 w3  w3  w3  w4  y1"
@@ -18,6 +23,7 @@
     "w15 w15 w15 w15 y4 r5  r5  r5  n4  n4  n4  n4  n4 w14 w14 w14 w14 w14";
     grid-gap:8px;
     background: #000;
+    border:8px solid #000 ;
 }
 .item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11,.item12,.item13,.item14,.item15,.item16
 {
