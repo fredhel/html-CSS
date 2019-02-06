@@ -267,7 +267,7 @@ body{
      transform: rotateY(  0deg)
      translateZ(100px);
      background-color:rgba(56, 56, 153,0.5);
-     }
+}
 .ecran:nth-child(2) { 
     transform: rotateY( 40deg)
     translateZ(100px);
@@ -287,7 +287,7 @@ body{
      transform: rotateY(160deg)
      translateZ(100px); 
      background-color: rgba(238, 192, 199, 0.5);
-    }
+}
 .ecran:nth-child(6) { 
     transform: rotateY(200deg)
     translateZ(100px); 
@@ -297,17 +297,17 @@ body{
      transform: rotateY(240deg)
      translateZ(100px);
      background-color: rgb(109, 155, 216,0.5);
-     }
+}
 .ecran:nth-child(8) {
      transform: rotateY(280deg)
      translateZ(100px); 
      background-color: rgb(177, 25, 25,0.5);
-    }
+}
 .ecran:nth-child(9) {
      transform: rotateY(320deg)
      translateZ(100px);
      background-color: rgba(153, 10, 153,0.5);
-     }
+}
 
 .move{
     top: 300px;
@@ -321,8 +321,8 @@ body{
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    
 }
+
 @keyframes movecran{
     0%{transform: rotateZ(20deg)rotateX(20deg);left:800px;top:300px;}
     10%{transform: rotateZ(36deg)rotateX(36deg);left:10px;top:400px;}
