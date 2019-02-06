@@ -1,11 +1,11 @@
 body
 {
-    width: 800px;
+    width: 1100px;
 }
 
 .conteneur
 {
-    height: 50vh;
+    height: 95vh;
     display:grid;
     grid-template-areas:
     "n1 n2  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  n3 n4"
@@ -21,10 +21,10 @@ body
     ".  .  .  .  .  nq yg y7 y9 y9 yc yc  ya ya ya ya yd yd yb yb y8 yh nr .  .  .  .  . "
     ".  .  .  .  .  nq yg y7 y9 y9 yc yc  ya ya ya ya yd yd yb yb y8 yh nr .  .  .  .  . "
     ".  .  .  .  ns yi yg y7 nt nt yc yc  ya ya ya ya yd yd nu nu y8 yh yj nv .  .  .  . "
-    ".  .  .  .  ns yi yg nw .  nx nx yc  ya ya ya ya yd ny .  nz nz yh yj nv .  .  .  . "
-    ".  .  .  .  ns yi yg nw m1 m1 m1 yc  ya ya ya ya yd m2 m2 m2 m2 yh yj nv .  .  .  . "
-    ".  .  .  .  ns yi yg yk m3 m3 yl yc  ym m4 m4 yn yd yo m5 m5 yp yh yj nv .  .  .  . "
-    ".  .  .  m6 yq yi r1 r1 yr ys yl yc  ym yt yt yn yd yo yu yv r2 r2 yj yw m8 .  .  . "
+    ".  .  .  .  ns yi yg nw .  nx nx j9  ya ya ya ya ja ny .  nz nz yh yj nv .  .  .  . "
+    ".  .  .  .  ns yi yg nw m1 m1 m1 j9  ya ya ya ya ja m2 m2 m2 m2 yh yj nv .  .  .  . "
+    ".  .  .  .  ns yi yg yk m3 m3 yl j9  ym m4 m4 yn ja yo m5 m5 yp yh yj nv .  .  .  . "
+    ".  .  .  m6 yq yi r1 r1 yr ys yl j9  ym yt yt yn ja yo yu yv r2 r2 yj yw m8 .  .  . "
     ".  .  .  m6 yq r3 r1 r1 r4 ys yl m7  ym m9 m9 yn ma yo yu r5 r2 r2 r6 yw m8 .  .  . "
     ".  .  .  m6 yq r3 r1 r1 r4 ys yl yx  mb mb mb mb yy yo yu r5 r2 r2 r6 yw m8 .  .  . "
     ".  .  .  .  mc yz r1 r1 j1 ys yl yx  md r7 r7 me yy yo yu j2 r2 r2 j3 mf .  .  .  . "
@@ -32,7 +32,7 @@ body
     ".  .  .  .  .  .  mi mi j1 ys yl yx  j6 mj mj j7 yy yo yu j2 mk mk .  .  .  .  .  . "
     ".  .  .  .  .  .  .  .  ml ml ml j8  j8 j8 j8 j8 j8 mm mm mm .  .  .  .  .  .  .  . "
     ".  .  .  .  .  .  .  .  .  .  .  mn  mn mn mn mn mn .  .  .  .  .  .  .  .  .  .  . ";
-    grid-gap:8px;
+    grid-gap:0px;
     background: #fff;
     border:8px solid #000 ;
 }
@@ -190,33 +190,189 @@ body
 #noir51{
     grid-area: mg;
 }
-#noir1{
-    grid-area: n1;
+#noir52{
+    grid-area: mh;
 }
-#noir1{
-    grid-area: n1;
+#noir53{
+    grid-area: mi;
 }
-#noir1{
-    grid-area: n1;
+#noir54{
+    grid-area: mj;
 }
-#noir1{
-    grid-area: n1;
+#noir55{
+    grid-area: mk;
 }
-#noir1{
-    grid-area: n1;
+#noir56{
+    grid-area: ml;
 }
-#noir1{
-    grid-area: n1;
+#noir57{
+    grid-area: mm;
 }
-#noir1{
-    grid-area: n1;
+#noir58{
+    grid-area: mn;
 }
-#noir1{
-    grid-area: n1;
+#jaun1{
+    grid-area: y1;
 }
-#noir1{
-    grid-area: n1;
+#jaun2{
+    grid-area: y2;
 }
-#noir1{
-    grid-area: n1;
+#jaun3{
+    grid-area: y3;
+}
+#jaun4{
+    grid-area: y4;
+}
+#jaun5{
+    grid-area: y5;
+}
+#jaun6{
+    grid-area: y6;
+}
+#jaun7{
+    grid-area: y7;
+}
+#jaun8{
+    grid-area: y8;
+}
+#jaun9{
+    grid-area: y9;
+}
+#jaun10{
+    grid-area: ya;
+}
+#jaun11{
+    grid-area: yb;
+}
+#jaun12{
+    grid-area: yc;
+}
+#jaun13{
+    grid-area: yd;
+}
+#jaun14{
+    grid-area: ye;
+}
+#jaun15{
+    grid-area: yf;
+}
+#jaun16{
+    grid-area: yg;
+}
+#jaun17{
+    grid-area: yh;
+}
+#jaun18{
+    grid-area: yi;
+}
+#jaun19{
+    grid-area: yj;
+}
+#jaun20{
+    grid-area: yk;
+}
+#jaun21{
+    grid-area: yl;
+}
+#jaun22{
+    grid-area: ym;
+}
+#jaun23{
+    grid-area: yn;
+}
+#jaun24{
+    grid-area: yo;
+}
+#jaun25{
+    grid-area: yp;
+}
+#jaun26{
+    grid-area: yq;
+}
+#jaun27{
+    grid-area: yr;
+}
+#jaun28{
+    grid-area: ys;
+}
+#jaun29{
+    grid-area: yt;
+}
+#jaun30{
+    grid-area: yu;
+}
+#jaun31{
+    grid-area: yv;
+}
+#jaun32{
+    grid-area: yw;
+}
+#jaun33{
+    grid-area: yx;
+}
+#jaun34{
+    grid-area: yy;
+}
+#jaun35{
+    grid-area: yz;
+}
+#jaun36{
+    grid-area: j1;
+}
+#jaun37{
+    grid-area: j2;
+}
+#jaun38{
+    grid-area: j3;
+}
+#jaun39{
+    grid-area: j4;
+}
+#jaun40{
+    grid-area: j5;
+}
+#jaun41{
+    grid-area: j6;
+}
+#jaun42{
+    grid-area: j7;
+}
+#jaun43{
+    grid-area: j8;
+}
+#jaun44{
+    grid-area: j9;
+}
+#jaun45{
+    grid-area: ja;
+}
+#roug1{
+    grid-area: r1;
+}
+#roug2{
+    grid-area: r2;
+}
+#roug3{
+    grid-area: r3;
+}
+#roug4{
+    grid-area: r4;
+}
+#roug5{
+    grid-area: r5;
+}
+#roug6{
+    grid-area: r6;
+}
+#roug7{
+    grid-area: r7;
+}
+.noir{
+    background-color: black;
+}
+.jaun{
+    background-color: yellow;
+}
+.roug{
+    background-color: red;
 }
