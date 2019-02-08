@@ -252,8 +252,8 @@ body{
 /  animation 3D    /
 //////////////////*/
 .ecran img{
-    width: 30px;
-    height: 30px;
+    width: 290px;
+    height: 290px;
 }
 .ecran{
     position: absolute;
