@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    position: relative;
+    top:800px;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+header{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+[class*="fr-"]{
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+
+@media screen and (min-width:640px){
+    .fr-1 {width: 8.33%;}
+    .fr-2 {width: 16.66%;}
+    .fr-3 {width: 25%;}
+    .fr-4 {width: 33.33%;}
+    .fr-5 {width: 41.66%;}
+    .fr-6 {width: 50%;}
+    .fr-7 {width: 58.33%;}
+    .fr-8 {width: 66.66%;}
+    .fr-9 {width: 75%;}
+    .fr-10 {width: 83.33%;}
+    .fr-11 {width: 91.66%;}
+    .fr-12 {width: 100%;}
+}
+@media screen and (max-width:800px){
+    #fr{
+        visibility: hidden;
+    }
+@media print and (min-width:800px){
+    .fr13{
+        visibility: visible;
+    }
+}
