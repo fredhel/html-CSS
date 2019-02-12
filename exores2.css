@@ -24,13 +24,31 @@ span
     position: relative ;
     float: right;
 }
-#div2 p
-{
-    display: block;
-    text-align: center;
-}
 .lign
 {
-    display:inline-block ;
+    width: 95%;
+}
+.lign div
+{
+    display:inline-flex;
+    margin-left:4%;
     
+}
+.lign div p
+{
+   display: block;
+   text-align: center;
+}
+
+@media screen and (max-width:800px)
+{
+    .lign div
+    {
+        
+        
+    }
+    .lign div p
+    {
+        display: flex;
+    }  
 }
