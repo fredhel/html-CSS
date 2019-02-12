@@ -1,0 +1,36 @@
+img
+{
+    width: 150px;
+    height: 150px;
+}
+span
+{
+    font-size: 70px;
+}
+#temp
+{
+    position: relative;
+    padding-top: 10px;
+    float:right;
+}
+#div1
+{
+    width:40% ;
+}
+#info
+{
+    margin-left: 35%;
+    width:20% ;
+    position: relative ;
+    float: right;
+}
+#div2 p
+{
+    display: block;
+    text-align: center;
+}
+.lign
+{
+    display:inline-block ;
+    
+}
