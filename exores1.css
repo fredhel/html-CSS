@@ -37,7 +37,7 @@ header{
 }
 @media screen and (max-width:800px){
     #fr{
-        visibility: hidden;
+        display: none;
     }
 @media print and (min-width:800px){
     .fr13{
