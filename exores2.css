@@ -1,7 +1,23 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+#div1
+{
+    position: relative;
+    width:100% ;
+}
+
+.lign hr
+{
+    display:none;
+}
+
 img
 {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 span
 {
@@ -13,26 +29,22 @@ span
     padding-top: 10px;
     float:right;
 }
-#div1
-{
-    width:40% ;
-}
+
 #info
 {
-    margin-left: 35%;
+    margin-left: 45%;
     width:20% ;
     position: relative ;
-    float: right;
+    float:right;
 }
 .lign
 {
-    width: 95%;
+    width: 100%;
 }
 .lign div
 {
-    display:inline-flex;
-    margin-left:4%;
-    
+    display:inline-block;
+    margin-right: 5%; 
 }
 .lign div p
 {
@@ -40,15 +52,57 @@ span
    text-align: center;
 }
 
-@media screen and (max-width:800px)
+@media screen and (max-width:900px)
 {
+
+    #info
+    {
+        margin-left: 20%;
+    }
+    p h1
+    {
+        margin-right: 10%;
+    }
     .lign div
     {
-        
-        
+        width: 100%;
     }
     .lign div p
     {
-        display: flex;
-    }  
+        display: inline-flex;
+        margin-left: 20%;
+    }
+    .lign img
+    {
+        margin-left: 20%;
+    }
+    .lign hr
+    {
+        display:block;
+    }
+}
+@media screen and (max-width:610px)
+{
+    img
+    {
+        width: 80px;
+        height: 80px;
+    }
+    span
+    {
+        font-size: 30px;
+        margin:20px;
+    }
+    #info
+    {
+        margin-left: 0;
+    }
+    #div1
+    {
+        height: 250px;
+    }
+    .lign hr
+    {
+        display:block;
+    }
 }
