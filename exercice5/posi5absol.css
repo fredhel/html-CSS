@@ -4,7 +4,7 @@ div{
 #bleu{
     position:absolute;
     left: 405px;
-    background-color: blue;
+    background-color: rgb(146, 188, 243);
     width: 300px;
      height: 300px;
 }
@@ -12,7 +12,7 @@ div{
     position:absolute;
     top:405px;
     left:400px;
-    background-color:rgba(255,0,0,0.7);
+    background-color:rgba(15, 130, 184, 0.7);
     width: 300px;
     height: 300px;
 
@@ -21,7 +21,7 @@ div{
 #vert{
     position: absolute;
     top:405px;
-    background-color: green;
+    background-color: #1498BF;
     width: 300px;
     height: 300px;
 }
@@ -31,12 +31,12 @@ div{
     padding: 40px;
     height: 750px;
     width: 750px;
-    background-color: khaki;
+    background-color: #073340;
 }
 #violet{
     
     position: absolute;
     height: 300px;
     width: 300px;
-    background-color: darkorchid;
+    background-color: #0D667F;
 }
