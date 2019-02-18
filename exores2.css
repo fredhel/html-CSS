@@ -16,8 +16,12 @@
 
 img
 {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+}
+.lign img
+{
+    margin-left: 28%;
 }
 span
 {
@@ -44,44 +48,18 @@ span
 .lign div
 {
     display:inline-block;
-    margin-right: 5%; 
+    margin-right: 0; 
+    width:calc(100%/8) ;
 }
 .lign div p
 {
    display: block;
    text-align: center;
+   font-size: 30px;
 }
+
 
 @media screen and (max-width:900px)
-{
-
-    #info
-    {
-        margin-left: 20%;
-    }
-    p h1
-    {
-        margin-right: 10%;
-    }
-    .lign div
-    {
-        width: 100%;
-    }
-    .lign div p
-    {
-        display: inline-flex;
-        margin-left: 20%;
-    }
-    .lign img
-    {
-        margin-left: 20%;
-    }
-    .lign hr
-    {
-        display:block;
-    }
-}
-@media screen and (max-width:610px)
 {
     img
     {
@@ -104,5 +82,35 @@ span
     .lign hr
     {
         display:block;
+    }
+    .lign div
+    {
+        width: 100%;
+    }
+    .lign div p
+    {
+        display: inline-block;
+        margin:0;
+    }
+    .temp 
+    {
+        width: 20%;
+        position: relative;
+        float: right;
+        margin-right: 0;
+    }
+    .ima, .lign img
+    {
+        position: relative;
+        float:left;
+        margin-left: 0;
+     
+    }
+    
+    .jour
+    {
+        width: 40%;
+        position: relative;
+        float: left;
     }
 }
