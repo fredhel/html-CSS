@@ -33,7 +33,10 @@ span
     padding-top: 10px;
     float:right;
 }
-
+.temp br
+{
+    display:none;
+}
 #info
 {
     margin-left: 45%;
@@ -98,6 +101,10 @@ span
         position: relative;
         float: right;
         margin-right: 0;
+    }
+    .temp br
+    {
+        display: block;
     }
     .ima, .lign img
     {
