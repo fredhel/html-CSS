@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding:0 ;
+
 }
 .content{
     top: 300px;
@@ -17,17 +18,17 @@ body{
 }
 
 @keyframes movecran{
-    0%{transform: rotateZ(20deg)rotateX(20deg)rotateY(20deg);left:800px;top:300px;}
-    10%{transform: rotateZ(36deg)rotateX(36deg)rotateY(30deg);left:10px;top:400px;}
-    20%{transform: rotateZ(72deg)rotateX(72deg)rotateY(40deg);left:10px;top:60px;}
-    30%{transform: rotateZ(108deg)rotateX(108deg)rotateY(50deg);left:1300px;top:60px;}
+    0%{transform: rotateZ(20deg)rotateX(20deg)rotateY(20deg);left:700px;top:300px;}
+    10%{transform: rotateZ(36deg)rotateX(36deg)rotateY(30deg);left:200px;top:400px;}
+    20%{transform: rotateZ(72deg)rotateX(72deg)rotateY(40deg);left:200px;top:100px;}
+    30%{transform: rotateZ(108deg)rotateX(108deg)rotateY(50deg);left:1300px;top:100px;}
     40%{transform: rotateZ(144deg)rotateX(144deg)rotateY(60deg);left:1300px;top:300px;}
-    50%{transform: rotateZ(190deg)rotateX(190deg)rotateY(70deg);left:10px;top:200px;}
+    50%{transform: rotateZ(190deg)rotateX(190deg)rotateY(70deg);left:200px;top:200px;}
     60%{transform: rotateZ(226deg)rotateX(226deg)rotateY(80deg);left:300px;top:250px;}
     70%{transform: rotateZ(262deg)rotateX(262deg)rotateY(90deg);left:1000px;top:30px;}
-    80%{transform: rotateZ(298deg)rotateX(298deg)rotateY(100deg);left:300px;top:250px;}
-    90%{transform: rotateZ(324deg)rotateX(324deg)rotateY(110deg);left:300px;top:250px;}
-    100%{transform: rotateZ(360deg)rotateX(360deg)rotateY(120deg);left:800px;top:300px;}
+    80%{transform: rotateZ(298deg)rotateX(298deg)rotateY(100deg);left:800px;top:250px;}
+    90%{transform: rotateZ(324deg)rotateX(324deg)rotateY(110deg);left:300px;top:150px;}
+    100%{transform: rotateZ(360deg)rotateX(360deg)rotateY(120deg);left:710px;top:300px;}
     
 }
 
@@ -37,6 +38,7 @@ body{
     display: block;
     padding: 20px;
 }
+
 .cube{
     box-sizing: border-box;
     position: absolute;
@@ -47,35 +49,41 @@ body{
     border: 2px solid black;
     border-radius: 2px;
 }
+
 #face1{
      transform: rotateY(180deg)
      translateZ(100px);
      background-color:rgba(56, 56, 153,0.5);
 }
+
 #face2{ 
     transform: rotateY(-270deg)
     translateX(100px);
     transform-origin: top right;
     background-color: rgba(160, 68, 160,0.5);
  }
+
  #face3{ 
     transform: rotateY(270deg)
     translateX(-100px);
     transform-origin: center left;
     background-color: rgba(45, 151, 45,0.5);
  }
+
  #face4{ 
     transform: rotateX(-90deg)
     translateY(-100px);
     transform-origin: top center;
     background-color: rgba(238, 238, 130,0.5);
  }
+
  #face5 {
      transform: rotateX(90deg)
      translateY(100px); 
      transform-origin: bottom center;
      background-color: rgba(238, 192, 199, 0.5);
 }
+
 #face6 { 
     transform:translateZ(100px); 
     background-color: rgba(139, 38, 38,0.5);

@@ -135,6 +135,7 @@ body{
     border: 2px solid black;
     animation-direction: alternate;
 }
+
 .circle1{
     background-color: #fff;
     top: 80px;
@@ -144,6 +145,7 @@ body{
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
 .circle2{
     background-color: #fff;
     bottom: 40px;
@@ -153,6 +155,7 @@ body{
     animation-duration: 4s;
     animation-iteration-count: infinite;
 } 
+
 .circle3{
     background-color: #fff;
     bottom:160px;
@@ -162,6 +165,7 @@ body{
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
 @keyframes depart1{
     100%{background-color: #000;}
 }
@@ -188,42 +192,49 @@ body{
     text-align: center;
     border-radius: 3px;
 }
+
 .cube1{
     animation-name: suivre;
     animation-duration: 18s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
 }
+
 .cube2{
     animation-name: suivre;
     animation-duration: 18s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
 }
+
 .cube3{
     animation-name: suivre;
     animation-duration: 18s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
+
 .cube4{
     animation-name: suivre;
     animation-duration: 18s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
 }
+
 .cube5{
     animation-name: suivre;
     animation-duration: 18s;
     animation-delay: 4s;
     animation-iteration-count: infinite;
 }
+
 .cube6{
     animation-name: suivre;
     animation-duration: 18s;
     animation-delay: 5s;
     animation-iteration-count: infinite;
 }
+
 @keyframes suivre{
     0%{background-color: blue; top:10px; left:10px;}
     10%{background-color: rgb(203, 44, 224); top:10px; left:780px;}
@@ -255,6 +266,7 @@ body{
     width: 290px;
     height: 290px;
 }
+
 .ecran{
     position: absolute;
     width: 40px;
@@ -263,46 +275,55 @@ body{
     top: 250px;
     border: 2px solid black;
 }
+
 .ecran:nth-child(1) {
      transform: rotateY(  0deg)
      translateZ(100px);
      background-color:rgba(56, 56, 153,0.5);
 }
+
 .ecran:nth-child(2) { 
     transform: rotateY( 40deg)
     translateZ(100px);
     background-color: rgba(160, 68, 160,0.5);
  }
+
 .ecran:nth-child(3) { 
     transform: rotateY( 80deg)
     translateZ(100px);
     background-color: rgba(45, 151, 45,0.5);
  }
+
 .ecran:nth-child(4) { 
     transform: rotateY(120deg)
     translateZ(100px);
     background-color: rgba(238, 238, 130,0.5);
  }
+
 .ecran:nth-child(5) {
      transform: rotateY(160deg)
      translateZ(100px); 
      background-color: rgba(238, 192, 199, 0.5);
 }
+
 .ecran:nth-child(6) { 
     transform: rotateY(200deg)
     translateZ(100px); 
     background-color: rgba(139, 38, 38,0.5);
 }
+
 .ecran:nth-child(7) {
      transform: rotateY(240deg)
      translateZ(100px);
      background-color: rgb(109, 155, 216,0.5);
 }
+
 .ecran:nth-child(8) {
      transform: rotateY(280deg)
      translateZ(100px); 
      background-color: rgb(177, 25, 25,0.5);
 }
+
 .ecran:nth-child(9) {
      transform: rotateY(320deg)
      translateZ(100px);
