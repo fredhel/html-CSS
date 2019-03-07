@@ -1,7 +1,18 @@
+*
+{
+    margin:0;
+    padding:0;
+}
 header
 {
     text-align: center;
     align-content: center;
+}
+
+div div {
+    width: 300px;
+    height: auto;
+    margin:auto;
 }
 
 li
@@ -24,12 +35,21 @@ div
     border:3px solid rgb(236, 184, 13);
     border-radius: 20px;
     background-color: rgba(20, 20, 24, 0.514);
-    display: block;
+    box-sizing: border-box;
+    
 }
+
+p
+{
+    flex:1 0 300px;
+    margin: 5px;
+}
+
+
 .container
 {
-    width: 100%;
-    display:inline-block;
+    
+    background-color: rgb(197, 202, 206);
 }
 /* pour mobile (first) */
 [class*="col-"] {
@@ -66,6 +86,14 @@ div
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    div div{
+        position: relative;
+        float:left;
+        width: 300px;
+        height: auto;
+        margin:auto;
+    }
+  
   }
 
   @media only screen and (min-width: 1200px) {
@@ -82,4 +110,9 @@ div
     .col-lg10 {width: 83.33%;}
     .col-lg11 {width: 91.66%;}
     .col-lg12 {width: 100%;}
+    div div {
+        width: 300px;
+        height: auto;
+        margin:auto;
+    }
   }
